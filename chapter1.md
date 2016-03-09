@@ -1,29 +1,22 @@
 
 ---
-title       : Insert the chapter title here
-description : Insert the chapter description here
+title       : Vectors
+description : Basics of working with atomic vectors
 attachments :
-  slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
---- type:VideoExercise lang:r xp:50 skills:1
-## Analyze movie ratings
-
-*** =video_link
-//player.vimeo.com/video/154783078
-
---- type:MultipleChoiceExercise lang:r xp:50 skills:1
-## A really bad movie
-
-Have a look at the plot that showed up in the viewer to the right. Which type of movie has the worst rating assigned to it?
+--- type:NormalExercise lang:r xp:30 skills:1
+## Understanding type coercion in R
 
 *** =instructions
-- Adventure
-- Action
-- Animation
-- Comedy
+Create 4 single element vectors of the following types:
+- character
+- integer
+- numeric
+- logical
+
 
 *** =hint
-Have a look at the plot. Which color does the point with the lowest rating have?
+Use `<-` to assign a value to a vector and `c()` to combine different vectors.
 
 *** =pre_exercise_code
 ```{r}
